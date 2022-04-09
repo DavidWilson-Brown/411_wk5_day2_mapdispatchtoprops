@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import Car from '../components/Car'
+import Car from '../components/Car'  //presentation component
 
 const mapStateToProps = (state) => {
     return {
@@ -8,3 +8,6 @@ const mapStateToProps = (state) => {
 }
 
 export default connect(mapStateToProps)(Car)
+
+
+// connect(suit)(tony stark) =====> IRON MAN
